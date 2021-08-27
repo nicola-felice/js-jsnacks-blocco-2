@@ -4,11 +4,11 @@
 // creo lista numeri interi
 const listaNumeri = [24, 28, 10, 11, 20, 38, 25, 3, 1, 7, 29, 62];
 
-// sommo quelli in posizione dispari
-let somma = 0;
-
 // lista di quelli in posizione dispari
 const numeriIndiceDispari = [];
+
+// sommo quelli in posizione dispari
+let somma = 0;
 
 for (let i = 0; i < listaNumeri.length; i++) {
 
